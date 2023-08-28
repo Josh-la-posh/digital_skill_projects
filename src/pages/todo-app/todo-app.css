@@ -1,0 +1,87 @@
+.todo-app {
+    height: calc(100% - 120px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-app .container {
+    height: 80%;
+    width: 70%;
+}
+
+.todo-app .container .container_child {
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 255, 0.596);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.todo-app .container .container_child p {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.todo-app .container p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.todo-app .container form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 5px;
+}
+
+.todo-app .container form input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.todo-app .container form input:focus {
+    outline: 2px solid blue;
+}
+
+.todo-app .container form button {
+    height: 30px;
+    width: fit-content;
+    padding: 10px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.todo-app .container ul {
+    font-size: 20px;
+    list-style: none;
+    ;
+}
+
+.todo-app .container ul li {
+    background: rgba(0, 0, 255, 0.596);
+    margin: 10px 0;
+    padding: 8px 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-app .container ul li .delete_icon {
+    color: red;
+}

@@ -1,0 +1,17 @@
+.App {
+    height: 100vh;
+    position: relative;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover, li a:active {
+    text-decoration: underline;
+}
+
+.outlet {
+    margin-top: 120px;
+}

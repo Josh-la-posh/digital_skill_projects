@@ -1,0 +1,64 @@
+.header {
+    height: 60px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 20px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header .logo {
+    font-size: 36px;
+    font-weight: 400;
+    z-index: 1;
+    display: flex;
+    width: 7%;
+    
+}
+
+.header .logo span {
+    color: red;
+    margin: 0 -20px;
+    z-index: 100;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.header .input {
+    margin-right: auto;
+    width: 70%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.header .input input {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.header .input input:focus {
+    outline:  none;
+}
+
+.header .btns {
+    display: flex;
+    gap: 20px;
+}
+
+.header .btns button {
+    background-color: white;
+    color: blue;
+    border: none;
+    width: 70px;
+    padding: 5px 0;
+}
+
+.header .btns:nth-child(2) {
+    margin-right: 5px;
+}

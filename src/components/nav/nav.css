@@ -1,0 +1,19 @@
+.nav {
+    margin-top: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.719);
+    color: white;
+    height: 30px;
+}
