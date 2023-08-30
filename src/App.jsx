@@ -9,6 +9,8 @@ import Root from './pages/root'
 import Service from './pages/service/service'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import TodoApp from './pages/todo-app/todo-app'
+import Login from './pages/account/login'
+import Register from './pages/account/register'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: '/todo',
         element: <TodoApp />
+      },
+      {
+        path: '/login',
+        element: <Login />
+      },
+      {
+        path: '/register',
+        element: <Register />
       },
     ]
   },
